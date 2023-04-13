@@ -17,7 +17,7 @@ Although cabal is referenced here, the goal was not to work with packaging per s
   
 - The Official guideline to set up HLS for VsCode can be found in [configuring-your-project-build](https://haskell-language-server.readthedocs.io/en/latest/configuration.html#configuring-your-project-build)
   
-- A Way to generate the hie.yaml file automatically to LHS for VsCode works with the project automatically [implicit-hie]([https://](https://github.com/Avi-D-coder/implicit-hie))
+- A Way to generate the hie.yaml file automatically for HLS for VsCode works with the project automatically [implicit-hie]([https://](https://github.com/Avi-D-coder/implicit-hie))
 
 - Other links:
 
