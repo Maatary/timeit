@@ -20,7 +20,7 @@ Although cabal is referenced here, the goal was not to work with packaging per s
 - **HLS needs to know how to build your Haskell project**: what flags to pass, what packages to provide, etc. It gets this information from the build system used by your project (**typically cabal or stack**). The tool used to do this is called **hie-bios**. hie-bios calls the strategy it uses to get compilation flags (e.g. “ask cabal”) a **“cradle”**.
   
 
-- For instance, if you delete timeit.cabal and start HLS for VsCode, everything will work. This is because the project has no dependency what so ever. So Likely LHS just rely on the global GHC current config and compile the project (see [How does Haskell language Server manage to work with a project with only standalone haskell file?](https://stackoverflow.com/questions/76039680/how-does-haskell-language-server-manage-to-work-with-a-project-with-only-standal?noredirect=1#comment134108822_76039680))
+- For instance, if you delete timeit.cabal and start HLS for VsCode, everything will work. This is because the project has no dependency what so ever. So Likely LHS just rely on the global GHC current config and compile the project (see [How does Haskell language Server manage to work with a project with only standalone haskell file?](https://stackoverflow.com/questions/76039680/how-does-haskell-language-server-manage-to-work-with-a-project-with-only-standal?noredirect=1#comment134108822_76039680)) **[[TODO]]**
 
 ## HLS for VsCode
 
